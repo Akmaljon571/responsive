@@ -1,9 +1,10 @@
+import Skils from '../../components/skils/skils'
 import './main.scss'
 
 function Main() {
     return (
-        <main> 
-           lorem1
+        <main className='main'> 
+           <Skils />
         </main>
     )
 }

@@ -4,6 +4,7 @@ import logo from "../../img/logoA.png";
 import project from "../../img/gears-svgrepo-com.svg";
 import Hero from "../../components/hero/hero";
 import useStart from "../../hooks/useStart";
+import language from "../../language";
 
 function Header() {
   const { lan, setLan } = useStart()
@@ -23,17 +24,17 @@ function Header() {
           <img src={logo} alt="dc" />
         </Link>
         <div className="navbar_ota">
-          <Link onClick={linkActivbe} className={"navbar_link"} to="#Skills">
-            Skills
+          <Link to="#Skills" onClick={linkActivbe} className={"navbar_link"} >
+            {language[0][lan].header}
           </Link>
           <div className="navbar_otaLink">
             <Link onClick={linkActivbe} className={"navbar_link"} to="#project">
-              Projects
+             {language[0][lan].loyiha}
             </Link>
             <img src={project} alt="dsd" />
           </div>
           <Link onClick={linkActivbe} className={"navbar_link"} to="#Contactme">
-            Contact me
+           {language[0][lan].contack}
           </Link>
           <select value={lan} className={'navbar_select'} onChange={select}>
             <option value="uz">🇺🇿 Uz</option>
