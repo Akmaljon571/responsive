@@ -1,0 +1,88 @@
+.project {
+  margin-top: 69px;
+
+  &_list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0;
+  }
+
+  &_item {
+    list-style-type: none;
+    width: 377px;
+    height: 501px;
+    padding: 0;
+    border-radius: 5px;
+    padding-top: 6px;
+    text-align: center;
+    background: linear-gradient(302.35deg, #0d54be 4.37%, #20ecd3 95.31%);
+  }
+
+  &_ota {
+    position: relative;
+    width: 366px;
+    height: 488px;
+    background-color: rgb(208, 208, 208);
+    margin: 0 auto;
+  }
+
+  &_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  &_p {
+    font-family: Commissioner;
+    font-size: 30px;
+    background-color: #fff;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 16px;
+    height: 212px;
+    padding-top: 20px;
+    color: #818080;
+
+    &1 {
+      font-family: Commissioner;
+      font-size: 20px;
+      background-color: #fff;
+      font-weight: 400;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: center;
+      padding: 16px;
+      height: 212px;
+      padding-top: 20px;
+      color: #818080;
+    }
+  }
+
+  &_link {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    bottom: -1px;
+    height: 85px;
+    padding-top: 20px;
+    position: absolute;
+
+    &1 {
+      background-color: #fff;
+      width: 100%;
+      display: block;
+      margin-top: 10px;
+      bottom: -1px;
+      height: 85px;
+      padding-top: 20px;
+      position: absolute;
+    }
+  }
+}

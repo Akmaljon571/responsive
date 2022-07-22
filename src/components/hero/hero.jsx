@@ -13,7 +13,7 @@ function Hero() {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <div className="hero_Left">
         <h1 className="hero_h1">Akmal Ahmadjonov</h1>
         <p className="hero_p">{language[0][lan].p}</p>

@@ -6,7 +6,10 @@ let language = [{
         header: 'Ko\'nikmalar',
         loyiha: 'Loyihalar',
         contack: 'Bog\'lanish',
-
+        bazi: 'Ba\'zi loyihalarimga quyidagilar kiradi:',
+        bobur: 'Bobur Blogerni shahsiy web saytini kirish qismi va cament yozish uchun qilingan page ',
+        nn: 'FrontEnd Mentorlika cament yozish saytini qisqacha clone',
+        magazin: 'Realniy project 100% ishledi malum sabablarga kora Backenti yoq lekin Backent ulasa 100% ishledi',
     },
     ru: {
         p: 'Всем привет!!! Меня зовут Акмаль. Мне 18 лет. В настоящее время я FrontEnd-разработчик. Учился 2 года наладчика оборудования и ПО в 2-КХМ, и 1 год веб-программирования в "Наджот Талим"! У меня есть реальные проекты, над которыми я работаю! Но у меня еще нет опыта работы!! Я очень увлекаюсь программированием и хочу продолжить это в будущем!!!',
@@ -15,6 +18,10 @@ let language = [{
         header: 'Навыки и умения',
         loyiha: 'Проекты',
         contack: "Связь",
+        bazi: 'Некоторые из моих проектов включают в себя:',
+        bobur: 'Babur Blogger — это личная страница входа и комментариев на сайте.',
+        magazin: 'Реальный проект работал на 100% Почему-то Backent не включен, но когда я подключаю Backent, он работает на 100%.',
+        nn: 'Короткий клон сайта для написания комментариев FrontEnd Mentorlika',
     },
 
     en: {
@@ -24,6 +31,10 @@ let language = [{
         header: 'Skills',
         loyiha: 'Projects',
         contack: 'Connection',
+        bazi: 'Some of my projects include:',
+        bobur: 'Babur Blogger is a personal website entry and comment page',
+        nn: 'Short clone of FrontEnd Mentorlika comment writing site',
+        magazin: 'The real project worked 100%. For some reason, Backent is not enabled, but when I connect Backent, it works 100%.',
     },
 }]
 

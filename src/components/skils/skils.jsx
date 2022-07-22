@@ -8,15 +8,14 @@ import botst from "../../img/bootstrap.png";
 import Reactt from "../../img/Reactt.jpg";
 import redux from "../../img/Redux.png";
 import kok from "../../img/Polygon.png";
-import git from "../../img/git.png";
 import "./skils.scss";
 
 function Skils() {
   const { lan } = useStart();
 
   return (
-    <section id="skils" className="skils">
-      <h1 className="skils_h1">{language[0][lan].header}</h1>
+    <section id="Skills" className="skils">
+      <h2 className="skils_h1">{language[0][lan].header}</h2>
       <div className="skils_ota">
         <div className="skils_left">
           <h2 className="skils_h2">{language[0][lan].skil}</h2>

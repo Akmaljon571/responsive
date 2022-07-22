@@ -20,22 +20,22 @@ function Header() {
   return (
     <header id="home" className="header">
       <div className="navbar">
-        <Link to="#home">
+        <a href="#home">
           <img src={logo} alt="dc" />
-        </Link>
+        </a>
         <div className="navbar_ota">
-          <Link to="#Skills" onClick={linkActivbe} className={"navbar_link"} >
+          <a href="#Skills" onClick={linkActivbe} className={"navbar_link"} >
             {language[0][lan].header}
-          </Link>
+          </a>
           <div className="navbar_otaLink">
-            <Link onClick={linkActivbe} className={"navbar_link"} to="#project">
+            <a onClick={linkActivbe} className={"navbar_link"} href="#project">
              {language[0][lan].loyiha}
-            </Link>
+            </a>
             <img src={project} alt="dsd" />
           </div>
-          <Link onClick={linkActivbe} className={"navbar_link"} to="#Contactme">
+          <a onClick={linkActivbe} className={"navbar_link"} href="#Contactme">
            {language[0][lan].contack}
-          </Link>
+          </a>
           <select value={lan} className={'navbar_select'} onChange={select}>
             <option value="uz">🇺🇿 Uz</option>
             <option value="ru">🇷🇺 Ru</option>
