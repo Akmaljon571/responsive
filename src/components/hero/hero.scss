@@ -1,0 +1,52 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 118px;
+  margin-top: 128px;
+
+  &_Left {
+    width: 650px;
+    float: left;
+  }
+
+  &_h1 {
+    margin: 0;
+    font-family: Fraunces;
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 93px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #edcf77;
+  }
+
+  &_p {
+    font-family: Commissioner;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(57, 57, 57);
+    margin: 35px 0;
+  }
+
+  &_btn {
+    padding: 10px 15px;
+    font-family: Commissioner;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(39, 128, 201);
+  }
+
+  &_img{
+    border-radius: 10px;
+  }
+}

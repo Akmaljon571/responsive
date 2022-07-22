@@ -1,9 +1,9 @@
-import 'main.scss'
+import './main.scss'
 
 function Main() {
     return (
         <main> 
-           Main
+           lorem1
         </main>
     )
 }
