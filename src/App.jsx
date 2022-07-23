@@ -1,4 +1,3 @@
-import { useState, useRef } from 'react';
 import { Header, Main, Footer } from './page'
 import './App.scss';
 import { Container } from './components';
@@ -6,11 +5,13 @@ import 'antd/dist/antd.css'
 
 function App() {
     return (
+      <div className='bigContainer'>
       <Container>
         <Header />
         <Main />
-        <Footer />
       </Container>
+        <Footer />
+      </div>
     )
 }
 

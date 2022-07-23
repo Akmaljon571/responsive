@@ -2,10 +2,15 @@
     max-width: 1300px;
     padding: 0 15px;
     margin: 0 auto;
-    height: 100px;
+    height: 100%;
 }
 
 body{
     background-image: url(../../img/bgc.webp);
     background-size: 100%;
+}
+
+.bigContainer{
+    max-width: 1990px;
+    margin: 0 auto;
 }

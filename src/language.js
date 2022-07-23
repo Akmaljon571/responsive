@@ -9,6 +9,7 @@ let language = [{
         bazi: 'Ba\'zi loyihalarimga quyidagilar kiradi:',
         bobur: 'Bobur Blogerni shahsiy web saytini kirish qismi va cament yozish uchun qilingan page ',
         nn: 'FrontEnd Mentorlika cament yozish saytini qisqacha clone',
+        footer:'Mening ijtimoiy tarmoqlardagi havolalarim:',
         magazin: 'Realniy project 100% ishledi malum sabablarga kora Backenti yoq lekin Backent ulasa 100% ishledi',
     },
     ru: {
@@ -21,6 +22,7 @@ let language = [{
         bazi: 'Некоторые из моих проектов включают в себя:',
         bobur: 'Babur Blogger — это личная страница входа и комментариев на сайте.',
         magazin: 'Реальный проект работал на 100% Почему-то Backent не включен, но когда я подключаю Backent, он работает на 100%.',
+        footer:'Мои ссылки в социальных сетях:',
         nn: 'Короткий клон сайта для написания комментариев FrontEnd Mentorlika',
     },
 
@@ -33,6 +35,7 @@ let language = [{
         contack: 'Connection',
         bazi: 'Some of my projects include:',
         bobur: 'Babur Blogger is a personal website entry and comment page',
+        footer:'My social media links:',
         nn: 'Short clone of FrontEnd Mentorlika comment writing site',
         magazin: 'The real project worked 100%. For some reason, Backent is not enabled, but when I connect Backent, it works 100%.',
     },

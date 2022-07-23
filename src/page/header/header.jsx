@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./header.scss";
 import logo from "../../img/logoA.png";
 import project from "../../img/gears-svgrepo-com.svg";
@@ -8,10 +7,6 @@ import language from "../../language";
 
 function Header() {
   const { lan, setLan } = useStart()
-
-  const linkActivbe = (evt) => {
-    
-  };
 
   let select = (evt) => {
      setLan(evt.target.value)
